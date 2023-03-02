@@ -12,38 +12,39 @@
 <body>
     <div class="container"> 
         <form action="">
-            <input type="text" placeholder="Enter task...">
-            <button>+</button>
+            <input type="text" placeholder="Enter task..." id="enterTask">
+            <button class="button" id="addTask" type="submit">+</button>
         </form>
-        <ul class="tasks">
+        <ul class="tasks" id="taskContainer">
             <li class="task">
-                <div class="content"><input type="checkbox" name="" id="">
-                    <p>call mom</p>
+                <div class="content"><input type="checkbox" name="" id="check">
+                    <p>Call mom</p>
                 </div>
-                <i class="fa fa-trash" aria-hidden="true"></i>
+                <i class="fa fa-trash delete" aria-hidden="true" id="deleteIcon"></i>
              </li>
         
             <li class="task">
-                <div class="content"><input type="checkbox" name="" id="">
-                    <p>pick up laundry</p>
+                <div class="content"><input type="checkbox" name="" id="check">
+                    <p>Pick up laundry</p>
                 </div>
-                <i class="fa fa-trash" aria-hidden="true"></i>
+                <i class="fa fa-trash delete" aria-hidden="true" id="deleteIcon"></i>
             </li>
         
             <li class="task">
-                <div class="content"><input type="checkbox" name="" id="">
-                    <p>meeting with new team</p>
+                <div class="content"><input type="checkbox" name="" id="check">
+                    <p>Meeting with new team</p>
                 </div>
-                <i class="fa fa-trash" aria-hidden="true"></i>
+                <i class="fa fa-trash delete" aria-hidden="true" id="deleteIcon"></i>
               </li>
       
             <li class="task">
-                <div class="content"> <input type="checkbox" name="" id="">
-                    <p>lunch</p>
+                <div class="content"> <input type="checkbox" name="" id="check">
+                    <p>Lunch</p>
                 </div>
-                <i class="fa fa-trash" aria-hidden="true"></i>
+                <i class="fa fa-trash delete" aria-hidden="true" id="deleteIcon"></i>
             </li>
             </ul>
             </div>
+            <script src="script.js"></script>
 </body>
 </html>
